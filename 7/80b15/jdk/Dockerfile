@@ -1,4 +1,4 @@
-# AlpineLinux with a glibc-2.23 and Oracle Java 7
+# AlpineLinux with a glibc-2.26, python 2.7.14 and Oracle Java 7
 FROM python:2.7.14-alpine3.6
 
 MAINTAINER Anastas Dancha <anapsix@random.io>

@@ -12,16 +12,27 @@ Because I needed to create a fat container to run multiple Java processes that a
 
 ## Details
 
-- Installs 'Oracle JDK 1.8.0_151-b12'
+- Installs 'Oracle Java 8'
 - Installs 'Python 2.7.14'
 - Installs 'glibc-2.26'
 - Installs 'bash'
 - Installs 'curl'
 
-## Build
-```shell
-docker build 8/current/jdk/unlimited/ -t omahoco1/alpine-java-python
-```
+
+## Tags
+Latest Oracle Java 8 Server-JRE:
+
+- latest
+- 8
+- 8_server-jre
+- 8_server-jre_unlimited
+
+Latest Oracle Java 8 JDK (plus DCEVM variant)
+
+- 8_jdk
+- 8_jdk_unlimited
+- 8_jdk-dcevm
+- 8_jdk-dcevm_unlimited
 
 ## Usage
 
